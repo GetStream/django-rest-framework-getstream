@@ -12,6 +12,7 @@ STYLE_CHOICES = sorted((item, item) for item in get_all_styles())
 
 
 class Snippet(models.Model, Activity):
+    id = models.AutoField(primary_key=True)
     created_at = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=100, blank=True, default='')
     code = models.TextField()
