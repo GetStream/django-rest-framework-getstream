@@ -21,4 +21,4 @@ open localhost:8000/notifications/ to see the currently logged in user's notifca
 
 ## TODO
 
-* make GET /notificaitons/ return an array of notifications for recently created Snippets.
+* make GET /notifications/ return an array of notifications for recently created Snippets.
